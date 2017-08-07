@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import OneSignal
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        OneSignal.initWithLaunchOptions(launchOptions, appId: "83951c93-2bdb-40e3-ace7-0a489642d150", handleNotificationAction: nil)
+        
         // Override point for customization after application launch.
         window = UIWindow(frame: UIScreen.main.bounds)
         let viewController = ViewController()

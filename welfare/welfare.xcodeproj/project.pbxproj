@@ -15,6 +15,9 @@
 		49A47CE61F388CE0004EE439 /* welfareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A47CE51F388CE0004EE439 /* welfareUITests.swift */; };
 		49A47CF51F389147004EE439 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A47CF31F389147004EE439 /* ViewController.swift */; };
 		49A47CF61F389147004EE439 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49A47CF41F389147004EE439 /* ViewController.xib */; };
+		605BBBA2ED6C99B686E2E0D0 /* Pods_welfare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F6F7B70FABA7664892BDBA /* Pods_welfare.framework */; };
+		6B175B70AE6546C458CE9ACE /* Pods_welfareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A55A97AE4B686A7F07E5E24C /* Pods_welfareUITests.framework */; };
+		7E7A7CC3097B4AD716AB7A43 /* Pods_welfareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F46791A0C79DED63CE683C1 /* Pods_welfareTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11E048D75D882F5A447747DD /* Pods-welfareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfareUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welfareUITests/Pods-welfareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20F6F7B70FABA7664892BDBA /* Pods_welfare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_welfare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F46791A0C79DED63CE683C1 /* Pods_welfareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_welfareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A47CC21F388CE0004EE439 /* welfare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = welfare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49A47CC51F388CE0004EE439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49A47CCA1F388CE0004EE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,13 @@
 		49A47CE71F388CE0004EE439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49A47CF31F389147004EE439 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		49A47CF41F389147004EE439 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		49A47CF71F389A65004EE439 /* welfare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = welfare.entitlements; sourceTree = "<group>"; };
+		702F0CBF51D34CC0727FC2E4 /* Pods-welfareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfareUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-welfareUITests/Pods-welfareUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8426023324A58EE99D976F5C /* Pods-welfareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfareTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-welfareTests/Pods-welfareTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C9D8AE451AF6B8347173F06 /* Pods-welfare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfare.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welfare/Pods-welfare.debug.xcconfig"; sourceTree = "<group>"; };
+		A55A97AE4B686A7F07E5E24C /* Pods_welfareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_welfareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB420C7C59E21AE4B78AB25B /* Pods-welfare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfare.release.xcconfig"; path = "Pods/Target Support Files/Pods-welfare/Pods-welfare.release.xcconfig"; sourceTree = "<group>"; };
+		F5F75577B1A1A8A1245F4440 /* Pods-welfareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-welfareTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-welfareTests/Pods-welfareTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				605BBBA2ED6C99B686E2E0D0 /* Pods_welfare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E7A7CC3097B4AD716AB7A43 /* Pods_welfareTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B175B70AE6546C458CE9ACE /* Pods_welfareUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +99,8 @@
 				49A47CD91F388CE0004EE439 /* welfareTests */,
 				49A47CE41F388CE0004EE439 /* welfareUITests */,
 				49A47CC31F388CE0004EE439 /* Products */,
+				53BBBA7CC307DC9763343380 /* Pods */,
+				7B31CBD52F85FDA62071F7D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +117,7 @@
 		49A47CC41F388CE0004EE439 /* welfare */ = {
 			isa = PBXGroup;
 			children = (
+				49A47CF71F389A65004EE439 /* welfare.entitlements */,
 				49A47CC51F388CE0004EE439 /* AppDelegate.swift */,
 				49A47CC91F388CE0004EE439 /* Main.storyboard */,
 				49A47CCC1F388CE0004EE439 /* Assets.xcassets */,
@@ -128,6 +147,29 @@
 			path = welfareUITests;
 			sourceTree = "<group>";
 		};
+		53BBBA7CC307DC9763343380 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C9D8AE451AF6B8347173F06 /* Pods-welfare.debug.xcconfig */,
+				CB420C7C59E21AE4B78AB25B /* Pods-welfare.release.xcconfig */,
+				F5F75577B1A1A8A1245F4440 /* Pods-welfareTests.debug.xcconfig */,
+				8426023324A58EE99D976F5C /* Pods-welfareTests.release.xcconfig */,
+				11E048D75D882F5A447747DD /* Pods-welfareUITests.debug.xcconfig */,
+				702F0CBF51D34CC0727FC2E4 /* Pods-welfareUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B31CBD52F85FDA62071F7D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F6F7B70FABA7664892BDBA /* Pods_welfare.framework */,
+				2F46791A0C79DED63CE683C1 /* Pods_welfareTests.framework */,
+				A55A97AE4B686A7F07E5E24C /* Pods_welfareUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A47CEA1F388CE0004EE439 /* Build configuration list for PBXNativeTarget "welfare" */;
 			buildPhases = (
+				EEA77D296234FF57084D533A /* [CP] Check Pods Manifest.lock */,
 				49A47CBE1F388CE0004EE439 /* Sources */,
 				49A47CBF1F388CE0004EE439 /* Frameworks */,
 				49A47CC01F388CE0004EE439 /* Resources */,
+				58A932C696D6C2D874ECA372 /* [CP] Embed Pods Frameworks */,
+				D408EBAA6A2B052D3FED61C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A47CED1F388CE0004EE439 /* Build configuration list for PBXNativeTarget "welfareTests" */;
 			buildPhases = (
+				CE291AA026C302BF1CE32AB0 /* [CP] Check Pods Manifest.lock */,
 				49A47CD21F388CE0004EE439 /* Sources */,
 				49A47CD31F388CE0004EE439 /* Frameworks */,
 				49A47CD41F388CE0004EE439 /* Resources */,
+				5ACD80B009AEA842365F4B2E /* [CP] Embed Pods Frameworks */,
+				379BBF4C4BFB9898FBEE5B69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49A47CF01F388CE0004EE439 /* Build configuration list for PBXNativeTarget "welfareUITests" */;
 			buildPhases = (
+				E1F52D15DAFDE0BBDE0DFEAA /* [CP] Check Pods Manifest.lock */,
 				49A47CDD1F388CE0004EE439 /* Sources */,
 				49A47CDE1F388CE0004EE439 /* Frameworks */,
 				49A47CDF1F388CE0004EE439 /* Resources */,
+				082725AC7428197671630E17 /* [CP] Embed Pods Frameworks */,
+				9A601606E551788AE6D07913 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,16 +249,21 @@
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RXE52385M4;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					49A47CD51F388CE0004EE439 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = Q6NQ538KNN;
+						DevelopmentTeam = RXE52385M4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 49A47CC11F388CE0004EE439;
 					};
 					49A47CE01F388CE0004EE439 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = Q6NQ538KNN;
+						DevelopmentTeam = RXE52385M4;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 49A47CC11F388CE0004EE439;
 					};
@@ -260,6 +316,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		082725AC7428197671630E17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfareUITests/Pods-welfareUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		379BBF4C4BFB9898FBEE5B69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfareTests/Pods-welfareTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A932C696D6C2D874ECA372 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfare/Pods-welfare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ACD80B009AEA842365F4B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfareTests/Pods-welfareTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A601606E551788AE6D07913 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfareUITests/Pods-welfareUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE291AA026C302BF1CE32AB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D408EBAA6A2B052D3FED61C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfare/Pods-welfare-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F52D15DAFDE0BBDE0DFEAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EEA77D296234FF57084D533A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		49A47CBE1F388CE0004EE439 /* Sources */ = {
@@ -419,13 +613,15 @@
 		};
 		49A47CEB1F388CE0004EE439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C9D8AE451AF6B8347173F06 /* Pods-welfare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = welfare/welfare.entitlements;
 				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0equals1.welfare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -433,13 +629,15 @@
 		};
 		49A47CEC1F388CE0004EE439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB420C7C59E21AE4B78AB25B /* Pods-welfare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = welfare/welfare.entitlements;
 				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfare/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.0equals1.welfare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -447,10 +645,11 @@
 		};
 		49A47CEE1F388CE0004EE439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F75577B1A1A8A1245F4440 /* Pods-welfareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = Q6NQ538KNN;
+				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfareTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfareTests;
@@ -462,10 +661,11 @@
 		};
 		49A47CEF1F388CE0004EE439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8426023324A58EE99D976F5C /* Pods-welfareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = Q6NQ538KNN;
+				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfareTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfareTests;
@@ -477,9 +677,10 @@
 		};
 		49A47CF11F388CE0004EE439 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E048D75D882F5A447747DD /* Pods-welfareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Q6NQ538KNN;
+				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfareUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfareUITests;
@@ -491,9 +692,10 @@
 		};
 		49A47CF21F388CE0004EE439 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702F0CBF51D34CC0727FC2E4 /* Pods-welfareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = Q6NQ538KNN;
+				DEVELOPMENT_TEAM = RXE52385M4;
 				INFOPLIST_FILE = welfareUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihangirs.welfareUITests;
@@ -522,6 +724,7 @@
 				49A47CEC1F388CE0004EE439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A47CED1F388CE0004EE439 /* Build configuration list for PBXNativeTarget "welfareTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +733,7 @@
 				49A47CEF1F388CE0004EE439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49A47CF01F388CE0004EE439 /* Build configuration list for PBXNativeTarget "welfareUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +742,7 @@
 				49A47CF21F388CE0004EE439 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
