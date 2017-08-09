@@ -10,6 +10,7 @@ target 'welfare' do
   pod 'Fabric'
   pod 'Crashlytics'
   pod 'AFNetworking'
+  pod 'UIAlertView-Blocks'
 
   target 'welfareTests' do
     inherit! :search_paths

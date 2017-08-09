@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>UIAlertView-Blocks.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,7 +37,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CCBFB55B25CEFF496C3250F2C874EFC6</key>
+		<key>9DDA4E720192113A1D82DEC77724FD1F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -43,6 +48,11 @@
 			<true/>
 		</dict>
 		<key>D0054E05BB8EEC23A8F573A6404DC132</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE3397C9EF59DA54171BC701AC3D9503</key>
 		<dict>
 			<key>primary</key>
 			<true/>
