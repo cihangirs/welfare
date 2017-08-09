@@ -183,6 +183,7 @@
 				49A47CC01F388CE0004EE439 /* Resources */,
 				58A932C696D6C2D874ECA372 /* [CP] Embed Pods Frameworks */,
 				D408EBAA6A2B052D3FED61C2 /* [CP] Copy Pods Resources */,
+				49A47CF81F3B01D2004EE439 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -347,6 +348,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-welfareTests/Pods-welfareTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		49A47CF81F3B01D2004EE439 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 09db90615183d07d42ee013514bf3534046b217d d0c274d1c74569f17494fcada8abdc6892c91b3e073567e99b8a3399504c7926";
 		};
 		58A932C696D6C2D874ECA372 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
