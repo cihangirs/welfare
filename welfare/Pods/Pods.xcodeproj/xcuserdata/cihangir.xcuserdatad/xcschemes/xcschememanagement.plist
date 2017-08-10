@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-welfare.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -37,7 +42,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DDA4E720192113A1D82DEC77724FD1F</key>
+		<key>3D28E75EFDCEC669FC9FFA01E1A3411D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -52,7 +62,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE3397C9EF59DA54171BC701AC3D9503</key>
+		<key>D4F51DDEC81C3CD608F261437277CDE7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

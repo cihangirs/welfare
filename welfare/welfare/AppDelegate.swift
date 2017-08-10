@@ -8,6 +8,8 @@
 
 import UIKit
 import OneSignal
+import Crashlytics
+import Fabric
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        Fabric.with([Crashlytics.self])
         
         OneSignal.initWithLaunchOptions(launchOptions, appId: "83951c93-2bdb-40e3-ace7-0a489642d150", handleNotificationAction: nil)
         

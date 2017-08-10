@@ -11,6 +11,7 @@ target 'welfare' do
   pod 'Crashlytics'
   pod 'AFNetworking'
   pod 'UIAlertView-Blocks'
+  pod 'Alamofire', '~> 4.4'
 
   target 'welfareTests' do
     inherit! :search_paths
