@@ -12,6 +12,7 @@ target 'welfare' do
   pod 'AFNetworking'
   pod 'UIAlertView-Blocks'
   pod 'Alamofire', '~> 4.4'
+  pod 'Parse'
 
   target 'welfareTests' do
     inherit! :search_paths

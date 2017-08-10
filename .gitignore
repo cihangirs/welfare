@@ -31,8 +31,8 @@ xcuserdata/
 *.zip
 docs/
 
-Pods/
-Podfile.lock
+welfare/Pods/
+welfare/Podfile.lock
 xcuserdata/*
 npm-debug.log
 

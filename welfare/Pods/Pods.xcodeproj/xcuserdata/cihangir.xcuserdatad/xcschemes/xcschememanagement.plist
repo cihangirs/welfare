@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-welfare.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -42,12 +52,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3D28E75EFDCEC669FC9FFA01E1A3411D</key>
+		<key>3FD8DDB4E32851048D10BEF25BE87608</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A91B251BE9354F7BE7F23337DEF36CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE243A1AB45315613065972BB9B2AB9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +82,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D4F51DDEC81C3CD608F261437277CDE7</key>
+		<key>F957EABCA56BD8F5B626798CC7B344D3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
