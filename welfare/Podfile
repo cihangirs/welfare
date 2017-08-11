@@ -13,7 +13,8 @@ target 'welfare' do
   pod 'UIAlertView-Blocks'
   pod 'Alamofire', '~> 4.4'
   pod 'Parse'
-
+  pod 'Firebase'
+  
   target 'welfareTests' do
     inherit! :search_paths
     # Pods for testing
